@@ -7,6 +7,9 @@ module.exports = {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
